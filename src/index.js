@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import classNames from 'classnames';
+import styles from './index.scss'
+import Home from './containers/Home'
 
-import './index.css'
 
 class App extends Component {
     render(){
         return(
-            <div className="biru" >
-                Hello World
-            </div>
+            <Home />
         )
     }
 }
