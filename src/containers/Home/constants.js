@@ -1,0 +1,1 @@
+export const SET_TITLE = 'src/containers/Home/SET_TITLE'
